@@ -4,7 +4,9 @@
 
 [![NPM](https://img.shields.io/npm/v/update-markdown-usage.svg)](https://www.npmjs.com/package/update-markdown-usage) [![Build Status](https://travis-ci.com/transitive-bullshit/update-markdown-usage.svg?branch=master)](https://travis-ci.com/transitive-bullshit/update-markdown-usage) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-This tiny module makes it easy for a node CLI module to update the usage section of its readme by pasting in the results of running with `--help`. See the `docs` script in this module's [package.json](package.json) for a concrete example of how this readme is updated.
+This tiny module makes it easy for a node CLI module to update the usage section of its readme by pasting in the results of running with `--help`.
+
+See the `docs` script in this module's [package.json](package.json) for a concrete example of how this readme is updated automatically.
 
 ## Install
 
