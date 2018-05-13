@@ -1,6 +1,6 @@
 # update-markdown-usage
 
-> CLI for [GitHub](https://github-cli.com) automation driven by headless chrome.
+> Updates a markdown section with CLI usage info via `--help`.
 
 [![NPM](https://img.shields.io/npm/v/update-markdown-usage.svg)](https://www.npmjs.com/package/update-markdown-usage) [![Build Status](https://travis-ci.com/transitive-bullshit/update-markdown-usage.svg?branch=master)](https://travis-ci.com/transitive-bullshit/update-markdown-usage) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
