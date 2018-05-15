@@ -2,7 +2,7 @@
   "name": "update-markdown-jsdoc",
   "version": "0.0.0",
   "description": "Updates a markdown document section with jsdoc documentation.",
-  "main": "lib/index.js",
+  "main": "index.js",
   "repository": "transitive-bullshit/update-markdown-jsdoc",
   "author": "Travis Fischer <travis@automagical.ai>",
   "license": "MIT",
