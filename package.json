@@ -1,13 +1,13 @@
 {
-  "name": "update-markdown-usage",
-  "version": "1.0.0",
-  "description": "Updates a markdown section with CLI usage info via --help.",
+  "name": "update-markdown-jsdoc",
+  "version": "0.0.0",
+  "description": "Updates a markdown document section with jsdoc documentation.",
   "main": "lib/index.js",
-  "repository": "transitive-bullshit/update-markdown-usage",
+  "repository": "transitive-bullshit/update-markdown-jsdoc",
   "author": "Travis Fischer <travis@automagical.ai>",
   "license": "MIT",
   "bin": {
-    "update-markdown-usage": "index.js"
+    "update-markdown-jsdoc": "index.js"
   },
   "scripts": {
     "docs": "node index.js --help | update-markdown-usage -w readme.md",
@@ -18,17 +18,21 @@
   },
   "keywords": [
     "markdown",
+    "jsdoc",
+    "documentation",
+    "readme",
     "update"
   ],
   "devDependencies": {
     "ava": "^0.25.0",
-    "standard": "^11.0.0"
+    "standard": "^11.0.0",
+    "update-markdown-usage": "^1.0.0"
   },
   "dependencies": {
     "commander": "^2.15.1",
-    "get-stdin": "^6.0.0",
-    "mdast-util-inject": "^1.1.0",
+    "documentation-custom-markdown": "^6.3.2",
+    "execa": "^0.10.0",
     "node-compat-require": "^1.0.3",
-    "remark": "^9.0.0"
+    "read-pkg-up": "^3.0.0"
   }
 }
