@@ -1,7 +1,7 @@
 {
   "name": "update-markdown-usage",
   "version": "1.0.0",
-  "description": "Updates a markdown section with CLI usage info via --help.",
+  "description": "Updates a markdown document section with CLI usage info via --help.",
   "main": "lib/index.js",
   "repository": "transitive-bullshit/update-markdown-usage",
   "author": "Travis Fischer <travis@automagical.ai>",
@@ -10,7 +10,7 @@
     "update-markdown-usage": "index.js"
   },
   "scripts": {
-    "docs": "node index.js --help | update-markdown-usage -w readme.md",
+    "docs": "update-markdown-usage",
     "test": "ava -v && standard"
   },
   "engines": {
@@ -26,9 +26,11 @@
   },
   "dependencies": {
     "commander": "^2.15.1",
+    "execa": "^0.10.0",
     "get-stdin": "^6.0.0",
     "mdast-util-inject": "^1.1.0",
     "node-compat-require": "^1.0.3",
+    "read-pkg-up": "^3.0.0",
     "remark": "^9.0.0"
   }
 }
