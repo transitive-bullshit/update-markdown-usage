@@ -41,9 +41,9 @@ npm install -g update-markdown-usage
 
 ## Related
 
--   [update-markdown-jsdoc](https://github.com/transitive-bullshit/update-markdown-jsdoc) - Same as this module but for documenting libraries with jsdoc.
--   [mdast-util-inject](https://github.com/anandthakker/mdast-util-inject) - Mdast utility to inject some markdown content into some other markdown at a certain heading.
--   [add-text-to-markdown](https://github.com/azu/add-text-to-markdown) - Add stdin text to exist markdown file.
+- [update-markdown-jsdoc](https://github.com/transitive-bullshit/update-markdown-jsdoc) - Same as this module but for documenting libraries with jsdoc.
+- [mdast-util-inject](https://github.com/anandthakker/mdast-util-inject) - Mdast utility to inject some markdown content into some other markdown at a certain heading.
+- [add-text-to-markdown](https://github.com/azu/add-text-to-markdown) - Add stdin text to exist markdown file.
 
 ## License
 
