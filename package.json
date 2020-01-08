@@ -1,6 +1,6 @@
 {
   "name": "update-markdown-usage",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Updates a markdown document section with CLI usage info via --help.",
   "main": "lib/index.js",
   "repository": "transitive-bullshit/update-markdown-usage",
